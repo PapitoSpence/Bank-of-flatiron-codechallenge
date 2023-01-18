@@ -7,7 +7,7 @@ function AddTransactionForm() {
   const [category, setCategory] = useState("")
   const [amount, setAmount] = useState("")
   function handleSubmit(e) {
-    fetch("https://api.npoint.io/905aa13feeb0f9a1bf99/transactions/", {
+    fetch("https://api.npoint.io/8a929262387db24036fe", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
