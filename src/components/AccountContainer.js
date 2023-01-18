@@ -10,9 +10,7 @@ function AccountContainer() {
       .then((resp) => resp.json())
       .then(transaction => setTransaction(transaction))
   },)
-  function handleSearch(e) {
-    setQuery(e.target.value)
-  }
+
   return (
     <div>
       <Search handleSearch={handleSearch} />
