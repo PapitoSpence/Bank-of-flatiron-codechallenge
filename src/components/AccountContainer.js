@@ -5,7 +5,6 @@ import AddTransactionForm from "./AddTransactionForm";
 
 function AccountContainer() {
   const [transaction, setTransaction] = useState([])
-  const [query, setQuery] = useState("")
   useEffect(() => {
     fetch("https://api.npoint.io/8a929262387db24036fe" )
       .then((resp) => resp.json())
