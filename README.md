@@ -1,6 +1,6 @@
 # Bank of Flatiron
 
-You can access this project through <a href='https://63c6729ad56a9b0008b91249--willowy-kringle-0ed0cf.netlify.app/'>Bank of flatiron</a>
+You can access this project through <a href='https://profound-faun-dd5d1e.netlify.app/'>Bank of flatiron</a>
 
 ## Instructions
 
@@ -18,11 +18,11 @@ setting up the application.
 
 To clone the repository run git clone from your terminal,use this link
     
-        git@github.com:ErnestH1/Bank-of-Flatiron.git
+        git@github.com:PapitoSpence/Bank-of-flatiron-codechallenge.git
 
 2. After cloning navigate to the cloned repository using 
 
-            cd Bank-of-Flatiron
+            cd Bank-of-flatiron-codechallenge
 
 3. In a new terminal, run `npm start`. This will run your React app on port `3000`.
 
@@ -30,12 +30,6 @@ The JSON data is hosted remotely on (https://api.npoint.io/3dd77f4c5b2c04fd1041/
 
 After starting up the appplication it should look like this
 <br><br><br>
-
-## Preview
-<img src="images/main.png">
-
-
-
 
 
 ## Core Deliverables
@@ -51,7 +45,7 @@ As a user, I should be able to:
   table.
 <br><br><br>
 
-Author <a href="https://github.com/ErnestH1/Bank-of-Flatiron">Ernest H</a> 
+Author: Spencer Mwenda 
 
 License MIT
 
