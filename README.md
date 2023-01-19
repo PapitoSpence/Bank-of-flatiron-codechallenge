@@ -4,19 +4,16 @@ You can access this project through <a href='https://profound-faun-dd5d1e.netlif
 
 ## Instructions
 
-For this project, you’ll be building out a React application that displays a 
+In this project, you’ll be building out a React application that displays a 
 list of your recent bank transactions, among other features.
 
-Part of what this code challenge is testing is your ability to follow given
-instructions. While you will definitely have a significant amount of freedom in
-how you implement the features, be sure to carefully read the directions for
-setting up the application.
+P
 
 ## Setup
 
 1. Clone the repository
 
-To clone the repository run git clone from your terminal,use this link
+To clone the repository run git clone from your terminal,using this link
     
         git@github.com:PapitoSpence/Bank-of-flatiron-codechallenge.git
 
