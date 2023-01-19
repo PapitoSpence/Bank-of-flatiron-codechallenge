@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-//import Transaction from "./Transaction";
+// import Transaction from "./Transaction";
 
 function AddTransactionForm() {
   const [date, setDate] = useState("")
@@ -7,7 +7,7 @@ function AddTransactionForm() {
   const [category, setCategory] = useState("")
   const [amount, setAmount] = useState("")
   function handleSubmit(e) {
-    fetch("https://api.npoint.io/8a929262387db24036fe", {
+    fetch("https://api.npoint.io/3dd77f4c5b2c04fd1041/transactions/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -30,7 +30,7 @@ function AddTransactionForm() {
           <input value={category} onChange={(e) => setCategory(e.target.value)} type="text" name="category" placeholder="Category" />
           <input value={amount} onChange={(e) => setAmount(e.target.value)} type="number" name="amount" placeholder="Amount" step="0.01" />
         </div>
-        <button className="ui button" type="submit">
+        <button className="ui button" type="submit" style={{backgroundColor:'white',marginBottom:'10px'}}>
           Add Transaction
         </button>
       </form>

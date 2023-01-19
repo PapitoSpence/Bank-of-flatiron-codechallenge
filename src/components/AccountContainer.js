@@ -5,15 +5,18 @@ import AddTransactionForm from "./AddTransactionForm";
 
 function AccountContainer() {
   const [transaction, setTransaction] = useState([])
+  const [query, setQuery] = useState("")
   useEffect(() => {
-    fetch("https://api.npoint.io/8a929262387db24036fe" )
+    fetch("https://api.npoint.io/3dd77f4c5b2c04fd1041/transactions/" + query)
       .then((resp) => resp.json())
       .then(transaction => setTransaction(transaction))
-  },)
-
+  }, [query])
+  function handleSearch(e) {
+    setQuery(e.target.description)
+  }
   return (
     <div>
-      <Search />
+      <Search handleSearch={handleSearch} />
       <AddTransactionForm />
       <TransactionsList transactions={transaction} />
     </div>

@@ -8,7 +8,7 @@ function Search({handleSearch}) {
         placeholder="Search your Recent Transactions"
         onChange={handleSearch}
       />
-      <i className="circular search link icon"></i>
+      <i className="circular search link icon"></i> 
     </div>
   );
 }
