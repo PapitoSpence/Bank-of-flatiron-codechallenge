@@ -7,7 +7,7 @@ function AccountContainer() {
   const [transaction, setTransaction] = useState([])
   const [query, setQuery] = useState("")
   useEffect(() => {
-    fetch("https://api.npoint.io/3dd77f4c5b2c04fd1041/transactions/" + query)
+    fetch("https://https-github-com-papito-spence-json-server-vercel.vercel.app/transactions/" + query)
       .then((resp) => resp.json())
       .then(transaction => setTransaction(transaction))
   }, [query])

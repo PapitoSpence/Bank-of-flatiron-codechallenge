@@ -7,7 +7,7 @@ function AddTransactionForm() {
   const [category, setCategory] = useState("")
   const [amount, setAmount] = useState("")
   function handleSubmit(e) {
-    fetch("https://api.npoint.io/3dd77f4c5b2c04fd1041/transactions/", {
+    fetch("https://https-github-com-papito-spence-json-server-vercel.vercel.app/transactions/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
